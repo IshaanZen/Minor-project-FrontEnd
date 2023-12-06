@@ -23,56 +23,56 @@ function mainAnimation(){
 	tl.from(".nav_link", {
 		y:'-100' , 
 		opacity:0,
-		duration:0.8,
+		duration: 0.8,
 		ease: Expo.easeinout
 	})
 	tl.from(".img1", {
 		y:'-100' , 
 		stagger: 0.2,
 		opacity:0,
-		duration:0.8,
+		duration: 0.8,
 		ease: Expo.easeinout
 	})
 	tl.from(".flip-card", {
 		// y:'-100' , 
-		stagger: 0.2,
+		stagger: 0.1,
 		opacity:0,
-		duration:0.8,
+		duration: 0.8,
 		ease: Expo.easeinout
 	})
 	tl.from(".img2", {
 		x:'-100' , 
-		stagger: 0.2,
+		stagger: 0.1,
 		opacity:0,
-		duration:0.8,
+		duration: 0.8,
 		ease: Expo.easeinout
 	})
 	tl.from(".img3", {
 		y:'100' , 
 		stagger: 0.2,
 		opacity:0,
-		duration:0.8,
+		duration: 0.8,
 		ease: Expo.easeinout
 	})
 	tl.from(".left-Heading", {
 		// y:'100' , 
 		stagger: 0.2,
 		opacity:0,
-		duration:0.8,
+		duration: 0.8,
 		ease: Expo.easeinout
 	})
 	tl.from(".guideline", {
 		// y:'100' , 
 		stagger: 0.2,
 		opacity:0,
-		duration:0.8,
+		duration: 0.8,
 		ease: Expo.easeinout
 	})
 
 	tl.from(".start-analysis>a", {
 		stagger:0.2,
 		opacity:0,
-		duration:0.8,
+		duration: 0.8,
 		ease: Expo.easeinout
 	})
 }
